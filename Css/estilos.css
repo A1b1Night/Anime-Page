@@ -45,6 +45,7 @@ header {
     margin-left: 200px;
     margin-top: 30px;
     margin-bottom: 30px;
+
 }
 
 .box {
@@ -225,4 +226,21 @@ a.selected {
         width: 80px;
         left: -80px;
     }
+}
+
+
+.ult-container{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.ult-agregados{
+   width: 200px;
+   height: 300px;
+   margin: 10px;
 }
