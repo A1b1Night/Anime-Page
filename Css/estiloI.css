@@ -51,35 +51,6 @@ background: linear-gradient(0deg, rgba(38,25,38,1) 0%, rgba(26,42,52,1) 100%);
 	cursor: pointer;
 }
 
-/* .logo h1{
-		color: #fff;
-        margin-top: 38px;
-		font-weight: 400;
-		font-size: 22px;
-		margin-left: 10px;
-        flex: auto;
-	} */
-/* .container .menu{
-		float: right;
-		line-height: 100px;
-	}
-	.container .menu a{
-		display: inline-block;
-		padding: 15px;
-		line-height: normal;
-		text-decoration: none;
-		color: #fff;
-		transition: all 0.3s ease;
-		border-bottom: 2px solid transparent;
-		font-size: 15px;
-		margin-right: 5px;
-	}
-	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
-		padding-bottom: 5px;
-	} */
-/*Fin de Estilos para el Header*/
-
 .logo{
 	padding-top: 180px;
 	padding-bottom: 160px;
@@ -207,10 +178,9 @@ background: linear-gradient(0deg, rgba(38,25,38,1) 0%, rgba(26,42,52,1) 100%);
 
 img {
 	width: 200px;
-	height: 290px;
+	height: 300px;
 	border-radius: 5px;
 }
-
 
 
 
