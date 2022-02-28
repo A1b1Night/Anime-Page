@@ -55,7 +55,7 @@ img {
 	border-radius: 5px;
 }
 
-img:hover{
+.imgA:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
