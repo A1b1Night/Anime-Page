@@ -1,4 +1,9 @@
-.containerA{
+
+.container{
+    width: 100%;
+}
+
+.container-Cuerpo{
     display: flex;
     height:300px;
     flex-wrap: wrap;
@@ -10,66 +15,78 @@
 
 .parrafo{
     display: flex;
-    color: white;
     padding: 90px;
     width: 100%;
-}
-.containerF{
-    display: flex;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    flex-direction: row;
-    margin: auto;
-    flex-wrap: wrap;
-}
-.favorito {
-	width: 200px;
-	height: 300px;
-	margin-left: 80px;
-	text-align: center;
-	line-height: 74px;
-	font-size: 30px;
-	align-items: center;
+    vertical-align: text-bottom;
 }
 
-.parrafoF h1 {
-	text-align: left;
-	font-size: 20px;
-    padding-top: 6px;
-}
-
-.parrafoF h2 {
-	font-size: 12px;
-	text-align: right;
-}
-
-.parrafoF {
-	width: 200px;
-	margin-left: 80px;
+.parrafo h2{
+    font-size: 35px;
 }
 
 img {
 	width: 200px;
-	height: 300px;
+	height: 290px;
 	border-radius: 5px;
+    object-fit: cover;
 }
 
 .imgA:hover{
     transform: scale(1.05);
     cursor: pointer;
+    transition: 1s;
+    transition-property: 1s;
 }
 
-.container-ult{
+
+.A-container{
+    margin-left: 170px;
     display: flex;
-    color: white;
-    text-align: center;
-    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    gap: 35px;
     align-items: center;
-    margin: auto;
+    text-align: center;
 }
 
-.ult-Agregado{
-    margin: 10px;
+.anime-agregado{
+   width: 200px;
+   height: 300px;
+   margin: 10px;
+}
+.anime-agregado h1{
+   margin-top: 5px;
+   text-align: left;
+   font-size: 20px;
+   font-weight: 400;
+}
+.anime-agregado h2{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: 600;
+ }
+
+
+
+/* Soon */
+
+
+
+/* footer */
+
+.containerCopy{
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+.copyright h1{
+    text-align: center;
+    font-size:15px;
+    margin-top: 5px;
+    font-weight: 400;
 }
