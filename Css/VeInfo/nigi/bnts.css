@@ -1,0 +1,126 @@
+
+ul {
+  width: 700px;
+  margin: 0 auto;
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+.status a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 8px 20px 8px 20px;
+  color: #ffffff;
+  display: inline-block;
+  letter-spacing: 2px;
+  margin-right: 9px;
+  position: relative;
+  background-color: #1f1f1f;
+}
+
+
+.epi a {
+  color: #FFF;
+  text-decoration: none;
+  font: 900 12px sans-serif;
+  padding: 8px 20px 8px 20px;
+  color: #131313;
+  vertical-align: 20px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.greenps{
+  color: #FFF;
+  background: #03C9A9;
+  border: 2px solid #03C9A9;
+}
+.green:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #03C9A9;
+  border: 2px solid #03C9A9;
+}
+
+.red:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #F62459;
+  border: 2px solid #F62459;
+}
+
+.blue:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #134a6e;
+  border: 2px solid #134a6e;
+}
+
+.lightblue:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #3498DB;
+  border: 2px solid #3498DB;
+}
+
+.orange:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: rgb(252, 149, 81);
+  border: 2px solid rgb(252, 149, 81);
+}
+
+.black:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #1b1b1b;
+  border: 2px solid #1b1b1b;
+}
+
+.brown:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #473a27;
+  border: 2px solid #473a27;
+}
+
+.yellow:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #eef117;
+  border: 2px solid #eef117;
+}
+
+.purple:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #663399;
+  border: 2px solid #663399;
+}
+
+.smoke:hover {
+  color: #FFF;
+  transition: 0.3s;
+  background: #575757;
+  border: 2px solid #575757;
+}
+
+.skin:hover {
+  color: rgb(5, 5, 5);
+  transition: 0.3s;
+  background: #ffffdf;
+  border: 2px solid #ffffdf;
+}
+
+.wine:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+  background: #641f30;
+  border: 2px solid #641f30;
+}
