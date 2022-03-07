@@ -1,32 +1,28 @@
-
+/* 
 .container{
     width: 100%;
-}
+} */
 
 .container-Cuerpo{
     display: flex;
-    height:300px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    width: 100%;
-    height: 100%;
     flex-wrap: wrap;
 }
-
-.parrafo{
+.mostP, .expl{
     display: flex;
-    padding: 90px;
-    width: 100%;
-    vertical-align: text-bottom;
+    width: 78%;
+    gap:2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.parrafo h2{
-    font-size: 34px;
+.expl{
+    margin-bottom: 3%;
 }
 
 img {
-	width: 200px;
-	height: 290px;
+	width: 220px;
+	height: 310px;
 	border-radius: 5px;
     object-fit: cover;
 }
@@ -38,22 +34,8 @@ img {
     transition-property: 1s;
 }
 
-
-.A-container{
-    margin-left: 170px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
-    gap: 35px;
-    align-items: center;
-    text-align: center;
-}
-
 .anime-agregado{
-   width: 200px;
-   height: 300px;
-   margin: 10px;
+    width: min-content;
 }
 .anime-agregado h1{
    margin-top: 5px;
@@ -65,11 +47,21 @@ img {
     text-align: right;
     font-size: 15px;
     margin-top: 3px;
+    margin-bottom: 4%;
     font-weight: 500;
  }
 
 
+ .parrafo{
+    display: flex;
+    padding: 90px;
+    width: 100%;
+    vertical-align: text-bottom;
+}
 
+.parrafo h2{
+    font-size: 34px;
+}
 /* Soon */
 
 
@@ -89,4 +81,10 @@ img {
     font-size:15px;
     margin-top: 5px;
     font-weight: 400;
+}
+
+@media (max-width: 667px){
+    .mostP, .expl{
+        justify-content: center;
+    }
 }

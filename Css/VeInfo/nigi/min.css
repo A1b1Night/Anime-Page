@@ -1,0 +1,39 @@
+@media (max-width: 667px) {
+    .info {
+        width: 80%;
+        font-size: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .add {
+        width: 100%;
+    }
+
+    .status {
+        margin-top: 5%;
+        width: 100%;
+        justify-content: center;
+    }
+    .status li{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .des {
+        width: 100%;
+        text-align: center;
+    }
+
+    .epi {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .cont {
+        width: 100%;
+        justify-content: center;
+    }
+}

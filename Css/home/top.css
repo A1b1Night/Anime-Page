@@ -1,0 +1,47 @@
+.top{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6%;
+    margin-right: auto;
+}
+.top ul {
+    margin-left: 10%;
+    justify-content: center;
+    margin-right: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.top ul li {
+    position: relative; 
+    list-style: none;
+}
+
+.top ul li a {
+    position: relative;
+    font-size: 2em;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    -webkit-text-stroke: 1px rgba(19, 19, 19, 0.5);
+}
+.top ul li a::before{
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr);
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    border-right: 8px solid var(--clr);
+    -webkit-text-stroke: 1px var(--clr);
+}
+.top ul li a:hover::before{
+    width: 100%;
+    filter: drop-shadow(0 0 25px var(--clr));
+}

@@ -13,15 +13,23 @@ li {
   font-family: 'Nunito', sans-serif;
   font-size: 13px;
   border-radius: 4px;
-  padding: 8px 20px 8px 20px;
+  text-decoration: none;
+  padding: 6px 18px 6px 18px;
   color: #ffffff;
   display: inline-block;
   letter-spacing: 2px;
-  margin-right: 9px;
+  margin-right: 1%;
+  margin-left: 0.1%;
+  margin-top: 2%;
   position: relative;
   background-color: #1f1f1f;
 }
 
+.heart {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
 
 .epi a {
   color: #FFF;
@@ -124,3 +132,4 @@ li {
   background: #641f30;
   border: 2px solid #641f30;
 }
+
