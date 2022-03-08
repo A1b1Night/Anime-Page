@@ -9,7 +9,7 @@
 
 body {
     background: rgb(255, 255, 255);
-    color: rgb(46, 46, 46);
+    color: #2e2e2e;
     transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
@@ -37,4 +37,10 @@ header {
     height: 150px;
     margin-left: 200px;
     margin-bottom: 10px;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #0e0e0e;
 }
