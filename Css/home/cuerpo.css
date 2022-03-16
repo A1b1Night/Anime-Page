@@ -1,6 +1,7 @@
-/* 
-.container{
-    width: 100%;
+
+/* @font-face {
+    font-family: Incompleeta-regular;
+    src: url("fonts/IncompleetaRegular");
 } */
 
 .container-Cuerpo{
@@ -9,7 +10,7 @@
 }
 .mostP, .expl{
     display: flex;
-    width: 78%;
+    width: 80%;
     gap:2%;
     margin-left: auto;
     margin-right: auto;

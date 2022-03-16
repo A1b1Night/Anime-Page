@@ -171,3 +171,50 @@ body {
     font-size: 13px;
     margin: 0 0 40px;
 }
+
+/* Menu */
+
+.menu-content {
+    width: 200px;
+    height: 130px;
+    position: fixed;
+    bottom: 3%;
+    right: 4%;
+}
+
+.menu-item {
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 0;
+    right: 7%;
+    transition: transform 300ms;
+}
+
+.menu-item img {
+    width: 25px;
+}
+
+.menu-item:hover{
+    background: white;
+}
+
+#menu{
+    z-index: 10;
+}
+
+.menu-active .menu-item:nth-child(2){
+    transform: translateX(-140px);
+}
+.menu-active .menu-item:nth-child(3){
+    transform: translateY(-70px);
+}
+.menu-active .menu-item:nth-child(4){
+    transform: translateX(-70px);
+}

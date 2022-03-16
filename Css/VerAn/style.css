@@ -1,0 +1,175 @@
+* {
+    text-decoration: none;
+    font-family: Sans-Serif;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+header img {
+    filter: blur(30px);
+    object-fit: cover;
+    width: 100%;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(46, 46, 46);
+}
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: grid;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 0.8fr;
+
+}
+
+.title {
+    grid-column: 1;
+    grid-column-end: none;
+    width: max-content;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 15px;
+    float: left;
+    background: transparent;
+    background-color: rgba(77, 77, 77, 0.05);
+    margin-bottom: 3%;
+}
+
+.caps {
+    grid-area: 2;
+    margin-top: 20px;
+}
+
+.caps li {
+    margin-left: -20px;
+    width: 100%;
+    list-style: none;
+}
+
+.player {
+    grid-area: 2;
+    grid-column: 2;
+    margin-left: 10px;
+}
+
+.player img {
+    display: flex;
+    width: 1219px;
+    height: 681px;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+
+/* btn */
+
+.caps a {
+    text-decoration: none;
+    font: 900 12px sans-serif;
+    color: #131313;
+    padding-right: 50%;
+    padding-bottom: 7.5%;
+    padding-top: 7.5%;
+    padding-left: 50%;
+    border-radius: 5px;
+    vertical-align: 40px;
+
+}
+
+.green:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #03C9A9;
+    border: 2px solid #03C9A9;
+}
+
+.red:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #F62459;
+    border: 2px solid #F62459;
+}
+
+.blue:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #134a6e;
+    border: 2px solid #134a6e;
+}
+
+.lightblue:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #3498DB;
+    border: 2px solid #3498DB;
+}
+
+.orange:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: rgb(252, 149, 81);
+    border: 2px solid rgb(252, 149, 81);
+}
+
+.black:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #1b1b1b;
+    border: 2px solid #1b1b1b;
+}
+
+.brown:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #473a27;
+    border: 2px solid #473a27;
+}
+
+.yellow:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #eef117;
+    border: 2px solid #eef117;
+}
+
+.purple:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #663399;
+    border: 2px solid #663399;
+}
+
+.smoke:hover {
+    color: #FFF;
+    transition: 0.3s;
+    background: #575757;
+    border: 2px solid #575757;
+}
+
+.skin:hover {
+    color: rgb(5, 5, 5);
+    transition: 0.3s;
+    background: #ffffdf;
+    border: 2px solid #ffffdf;
+}
+
+.wine:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    background: #641f30;
+    border: 2px solid #641f30;
+}
