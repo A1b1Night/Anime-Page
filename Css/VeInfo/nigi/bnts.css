@@ -44,11 +44,6 @@ li {
   position: relative;
 }
 
-.greenps{
-  color: #FFF;
-  background: #03C9A9;
-  border: 2px solid #03C9A9;
-}
 .green:hover {
   color: #FFF;
   transition: 0.3s;

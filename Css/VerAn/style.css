@@ -38,6 +38,7 @@ body {
 
 .title {
     grid-column: 1;
+    grid-row: 1;
     grid-column-end: none;
     width: max-content;
     padding-left: 1%;
@@ -46,49 +47,187 @@ body {
     float: left;
     background: transparent;
     background-color: rgba(77, 77, 77, 0.05);
-    margin-bottom: 3%;
+    margin-bottom: 3.5%;
 }
 
 .caps {
-    grid-area: 2;
-    margin-top: 20px;
+    place-self: center;
+    grid-column: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.caps li {
-    margin-left: -20px;
-    width: 100%;
+.caps ul {
+    margin-top: 4%;
+    margin-bottom: 0%;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caps a {
+    color: #FFF;
+    text-decoration: none;
+    font: 900 12px sans-serif;
+    padding: 8px 20px 8px 20px;
+    color: #131313;
+    vertical-align: 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    position: relative;
+    margin-left: 12px;
+    margin-right: 15px;
 }
 
 .player {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
     grid-area: 2;
-    grid-column: 2;
-    margin-left: 10px;
+    grid-row: 2;
+    grid-column: 1;
+    grid-column-end: 3;
+    justify-self: center;
 }
 
 .player img {
+    width: 100%;
+    height: fit-content;
     display: flex;
-    width: 1219px;
-    height: 681px;
     object-fit: cover;
-    vertical-align: top;
 }
 
+.comments {
+    grid-area: 4;
+    grid-column: 1;
+    grid-column-end: none;
+    margin-top: 3%
+}
 
-/* btn */
+.comm {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.caps a {
+/* Cards */
+
+.recom {
+    grid-area: 5;
+    grid-column: 1;
+    grid-column-end: none;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cards {
+    justify-content: center;
+    width: 100%;
+    grid-column: 1;
+    grid-column-end: 3;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    gap: 2%;
+}
+
+.card {
     text-decoration: none;
-    font: 900 12px sans-serif;
-    color: #131313;
-    padding-right: 50%;
-    padding-bottom: 7.5%;
-    padding-top: 7.5%;
-    padding-left: 50%;
-    border-radius: 5px;
-    vertical-align: 40px;
-
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 2%;
 }
+
+.card-header {
+    padding: 0px;
+}
+
+.card-header img {
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px;
+}
+
+.card h3 {
+    font-size: 21px;
+    text-align: center;
+    color: black;
+    justify-content: center;
+}
+
+.card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+}
+
+
+@media (max-width: 667px) {
+    .info {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .title,
+    .recom {
+        justify-self: center;
+        margin-bottom: 4%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caps {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 5%;
+    }
+
+    .player {
+        margin-top: 5%;
+        justify-content: center;
+        width: 100%;
+        height: 24%;
+    }
+    .player img{
+        width: 90%;
+    }
+    .comments{
+        margin-top: 1%;
+    }
+    .comments h1 {
+        grid-area: 5;
+        text-align: center;
+        margin-bottom: 6%;
+    }
+    .caps a {
+        margin-left: none;
+        margin-right: none;
+    }
+}
+
+
+
+
+
+
+
 
 .green:hover {
     color: #FFF;
